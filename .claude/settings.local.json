@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright",
+      "Bash(npm run:*)",
+      "Bash(claude mcp:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_fill_form",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_take_screenshot"
+    ],
+    "deny": []
+  },
+
+  "mcpServers": {
+    "playwright": {
+        "type": "stdio",
+        "command": "cmd",
+        "args": [
+            "/c",
+            "npx",
+            "@playwright/mcp@latest"
+        ],
+        "env": {}
+    }
+  }
+}
+
