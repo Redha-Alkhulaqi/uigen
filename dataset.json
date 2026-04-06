@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training with carbohydrate loading for a 20-mile run scheduled at 7 AM tomorrow",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan totals 4000+ calories with carbohydrates comprising 60%+ of total calories",
+      "Includes pre-run meal (easily digestible carbs 2-3 hours before 7 AM run) and post-run recovery meal with protein and carbs",
+      "All meals and snacks are vegetarian and nut-free",
+      "Plan is compact and fits within 1 day with practical meal timing"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 4000+ calories with carbohydrate loading emphasis and specific timing around training sessions"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "85 kg",
+      "goal": "Build muscle and increase strength through resistance training with optimal protein intake and meal timing",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers 1 full day with at least 4 meals strategically timed around training",
+      "Protein-focused with macronutrient ratios appropriate for strength athletes (approximately 2.2g protein per kg bodyweight)",
+      "Includes specific meal timing recommendations relative to resistance training sessions",
+      "Compact and concise format suitable for quick daily reference"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) needing protein-focused meals with specific macronutrient ratios and meal timing around resistance training"
+  },
+  {
+    "prompt_inputs": {
+      "height": "162 cm",
+      "weight": "52 kg",
+      "goal": "Maintain energy and performance for daily training while staying within 1800 calorie limit",
+      "restrictions": "Vegetarian, no nuts"
+    },
+    "solution_criteria": [
+      "Meal plan totals approximately 1800 calories across all meals",
+      "Includes balanced macronutrients (carbs for energy, adequate protein for recovery, healthy fats)",
+      "All meals are vegetarian and nut-free",
+      "Formatted as a compact 1-day plan with breakfast, lunch, dinner, and snack"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a weight-conscious athlete (gymnast/dancer) requiring balanced nutrition within caloric constraints while maintaining energy levels and performance"
+  }
+]

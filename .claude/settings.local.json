@@ -8,22 +8,23 @@
       "mcp__playwright__browser_fill_form",
       "mcp__playwright__browser_snapshot",
       "mcp__playwright__browser_click",
-      "mcp__playwright__browser_take_screenshot"
+      "mcp__playwright__browser_take_screenshot",
+      "Bash(pip install:*)",
+      "Bash(py --version)",
+      "Bash(py:*)"
     ],
     "deny": []
   },
-
   "mcpServers": {
     "playwright": {
-        "type": "stdio",
-        "command": "cmd",
-        "args": [
-            "/c",
-            "npx",
-            "@playwright/mcp@latest"
-        ],
-        "env": {}
+      "type": "stdio",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "@playwright/mcp@latest"
+      ],
+      "env": {}
     }
   }
 }
-
