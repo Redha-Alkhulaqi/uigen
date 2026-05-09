@@ -40,6 +40,11 @@
     "server-only": "^0.0.1",
     "tailwind-merge": "^3.5.0"
   },
+  "overrides": {
+    "dompurify": "^3.4.2",
+    "postcss": "^8.5.10",
+    "@hono/node-server": "^1.19.13"
+  },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.2.2",
     "@testing-library/dom": "^10.4.1",
