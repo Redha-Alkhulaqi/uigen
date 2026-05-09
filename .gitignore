@@ -50,3 +50,11 @@ next-env.d.ts
 /prisma/dev.db
 /prisma/dev.db-journal
 venv/
+
+# Claude Code local state
+.claude/scheduled_tasks.lock
+.claude/settings.local.json
+
+# Python bytecode (for cli_project)
+__pycache__/
+*.pyc
