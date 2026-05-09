@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "prisma.prisma",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "charliermarsh.ruff",
+    "mikestead.dotenv",
+    "editorconfig.editorconfig",
+    "anthropic.claude-code"
+  ],
+  "unwantedRecommendations": [
+    "ms-vscode.vscode-typescript-tslint-plugin"
+  ]
+}
